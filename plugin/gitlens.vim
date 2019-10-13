@@ -1,3 +1,4 @@
+scriptencoding utf-8
 
 if exists('g:loaded_gitlens')
   finish
@@ -11,5 +12,10 @@ function! s:set(var, default) abort
     return
   endif
 
-  execute 'let' a:var '=' a:default
+  execute 'let' a:var '=' string(a:default)
 endfunction
+
+call s:set('g:gitlens_enabled',                   '0')
+call s:set('g:gitlens_virtual_text_prefix',       '  > ')
+call s:set('g:gitlens_virtual_text_highlight',    '')
+call s:set('g:gitlens_blame_options',             '--minimal --root')
