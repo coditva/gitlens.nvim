@@ -1,0 +1,21 @@
+*gitlens.txt*                 A Vim plugin which shows git blame for the buffer
+
+                                   Git Lens                           *gitlens*
+
+CONTENTS
+    1. About Git Lens ................................. |gitlens-about|
+    2. Installation ................................... |gitlens-installation|
+    3. Commands ....................................... |gitlens-commands|
+    4. Options ........................................ |gitlens-options|
+
+===============================================================================
+ABOUT                                                           *gitlens-about*
+
+===============================================================================
+INSTALLATION                                             *gitlens-installation*
+
+===============================================================================
+COMMANDS                                                     *gitlens-commands*
+
+===============================================================================
+OPTIONS                                                       *gitlens-options*
