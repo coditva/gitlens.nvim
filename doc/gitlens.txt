@@ -1,4 +1,4 @@
-*gitlens.txt*                 A Vim plugin which shows git blame for the buffer
+*gitlens.txt* A Vim plugin which shows git blame for the buffer
 
                                    Git Lens                           *gitlens*
 
@@ -19,3 +19,37 @@ COMMANDS                                                     *gitlens-commands*
 
 ===============================================================================
 OPTIONS                                                       *gitlens-options*
+
+g:gitlens_virtual_text_prefix                   *g:gitlens_virtual_text_prefix*
+    Type: |string|
+    Default: `''`
+
+    This option sets the prefix that would be added to the `git blame` info
+    displayed as the virtual text.
+    Example:
+    >
+        let g:gitlens_virtual_text_prefix = ' | '
+
+
+g:gitlens_virtual_text_highlight             *g:gitlens_virtual_text_highlight*
+    Type: |string|
+    Default: `''`
+
+    This option sets the highlight to be used for the `git blame` info
+    displayed as the virtual text.
+    Example:
+    >
+        let g:gitlens_virtual_text_highlight = ''
+
+
+g:gitlens_blame_options                               *g:gitlens_blame_options*
+    Type: |string|
+    Default: '--minimal --root'
+
+    This option sets the options that would be sent to `git blame` command.
+    Example:
+    >
+        let g:gitlens_blame_options = ''
+
+
+vim:ft=help
