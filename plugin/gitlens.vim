@@ -17,5 +17,5 @@ endfunction
 
 call s:set('g:gitlens_enabled',                   '0')
 call s:set('g:gitlens_virtual_text_prefix',       '')
-call s:set('g:gitlens_virtual_text_highlight',    '')
+call s:set('g:gitlens_virtual_text_highlight',    'NonText')
 call s:set('g:gitlens_blame_options',             '--minimal --root')

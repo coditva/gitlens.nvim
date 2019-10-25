@@ -33,13 +33,13 @@ g:gitlens_virtual_text_prefix                   *g:gitlens_virtual_text_prefix*
 
 g:gitlens_virtual_text_highlight             *g:gitlens_virtual_text_highlight*
     Type: |string|
-    Default: `''`
+    Default: `'NonText'`
 
     This option sets the highlight to be used for the `git blame` info
     displayed as the virtual text.
     Example:
     >
-        let g:gitlens_virtual_text_highlight = ''
+        let g:gitlens_virtual_text_highlight = 'NonText'
 
 
 g:gitlens_blame_options                               *g:gitlens_blame_options*
